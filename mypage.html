@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <div id="title">
+            <h1>Welcome to Somto's webpage</h1>
+            <p>This is where dreams come true</p>
+            <button onclick="startnow()">Start now</button>
+        </div>
+        
+    </body>
+</html>
+<style>
+    body{
+        background-image: url(https://thumbs.dreamstime.com/b/beautiful-landscape-valley-alpine-mountains-small-houses-seefeld-rural-scene-majestic-picturesque-view-40712070.jpg);
+        background-size: cover;
+    }
+    h1{
+        color: blueviolet;
+    }
+    button:hover{
+        background-color: darkslategrey;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    #title {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+</style>
+<script>
+    function startnow() {
+        document.body.style.background = "url('https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyM2s4Y2x0djZmMzY2NGZ4MG5vcjB4bnl2MTlvNmFhbWRucGlkcHhjeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qwGcDfEAGdJWmuSnwh/giphy.gif')";
+        document.getElementById("title").style.visibility = "hidden";
+    }
+</script>
