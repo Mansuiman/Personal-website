@@ -1,14 +1,25 @@
-h1{
-        color: blueviolet;
-    }
-    button:hover{
-        background-color: darkslategrey;
-        cursor: pointer;
-        font-size: 20px;
-    }
-    #title {
-        text-align: center;
-        padding-top: 200px;
-        background-image: url(../Images/blue-4696630.jpg);
-        background-position: center top;
-    }
+:root{
+    --titlesectionPrimaryColor: white;
+}
+
+#title {
+    color: var(--titlesectionPrimaryColor);
+    text-align: center;
+    padding-top: 200px;
+    background-image: url(../Images/blue-4696630.jpg);
+    background-position: center top;
+}
+
+.title-section-button{
+    color: var(--titlesectionPrimaryColor);
+    border: solid var(--titlesectionPrimaryColor) 1px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: transparent;
+}
+
+.title-section-button:hover{
+    background-color: darkslategrey;
+    cursor: pointer;
+    font-size: 20px;
+}
