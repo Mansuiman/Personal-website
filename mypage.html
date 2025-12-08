@@ -1,6 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="./titlesection/titlesection.css">
+    <link rel="stylesheet" href="./aboutmesection/aboutmesection.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap">
 </head>
 <body>
@@ -8,6 +9,14 @@
         <h1 class="title-section-header">Manuel Udebuani</h1>
         <p class="title-section-subtitle">Visual creative with a passion to change the world</p>
         <button class="title-section-button" onclick="startnow()">Let's go!</button>
+    </div>
+    <div class="misc-section" id="aboutme">
+        <div class="text-block-container">
+            <h>About me</h>
+             <p class="aboutme-section-description">
+             Hi, I’m Somto. I am an architect with a passion for designing spaces that feel functional, intentional and memorable. I work with Revit and other modern tools to bring ideas to life, and I enjoy creating work that blends creativity with clear technical detail. Beyond architecture, I also create content. I shoot and edit videos, handle event recaps and produce short form content that captures real moments with a smooth, vibey style. I love learning new things, exploring fresh ideas and taking on projects that push me to grow. When I’m not designing or editing, I’m probably thinking about games on the Sui blockchain, watching a good episode of Survivor or finding new ways to improve my workflow. I am always open to new opportunities, collaborations and conversations.
+            </p>
+        </div>
     </div>
 </body>
 </html>
@@ -25,12 +34,20 @@ html, body {
   padding: 0;
 }
 
-    .main-section{
-        width: 100vw;
-        height: 100vh;
-        background-size: cover;
-        padding: 25px;
-    }
+.main-section{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding: 25px;
+}
+.misc-section{
+    width: 100vw;
+    padding: 100px 25px;
+}
+.text-block-container{
+    width: 65%;
+    margin: 0 auto;
+}
 </style>
 <script>
     function startnow() {
